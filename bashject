@@ -73,7 +73,7 @@ function _bashject_help() {
         - BASHJECT_CHANGE_PROMPT            # 1 to change the prompt to '[ BASHJECT_PRJ_NAME ] PS1' > on 'bashject set'  (default: '${BASHJECT_CHANGE_PROMPT_DEFAULT}', current: '${BASHJECT_CHANGE_PROMPT}')
         - BASHJECT_ALIAS                    # Name of an alias for bashject to define (i.e: 'bj'), autocompletion will be handled (default: '${BASHJECT_ALIAS_DEFAULT}', current: '${BASHJECT_ALIAS}')
         - BASHJECT_TMP                      # Temp file used for rename and remove operations (default: '${BASHJECT_TMP_DEFAULT}', current: '${BASHJECT_TMP}')
-        - BASHJECT_CD_WHEN_SET              # Change for project directory when set command is call (default: '${BASHJECT_CD_WHEN_SET_DEFAULT}', current: '${BASHJECT_CD_WHEN_SET}')
+        - BASHJECT_CD_WHEN_SET              # Change for project directory when set command is called (default: '${BASHJECT_CD_WHEN_SET_DEFAULT}', current: '${BASHJECT_CD_WHEN_SET}')
 EOF
 
     if [ -z $1 ]; then 
